@@ -18,12 +18,11 @@ export default function Home() {
   const [prompt, setPrompt] = useState("")
   // console.log(prompt)
 
-  const textHandler = (e: any) =>{
+  const textHandler = (e) =>{
     setPrompt(e.currentTarget.value)
   }
 
   const onResult = (data: any) =>{
-    console.log("step 2")
     console.log(data)
     setSnippit(data.Snippit);
     setKeywords(data.Keywords);
@@ -31,8 +30,8 @@ export default function Home() {
     setIsLoading(false)
   }
 
-  console.log(snippit);
-  console.log(keywords)
+ /*  console.log(snippit);
+  console.log(keywords) */
 
   const subtmitHandler = () =>{
     console.log("submitted " + prompt)
