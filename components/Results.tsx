@@ -1,6 +1,4 @@
 "use client"
-
-
 const Results = ({snippit, keywords, backButton, prompt}) => {
   return (
     <>
@@ -13,7 +11,7 @@ const Results = ({snippit, keywords, backButton, prompt}) => {
             <b>Branding Snippet:</b>
           </div>
           <div>
-          <p>"{snippit }"</p> 
+          <p>`&quot;`{snippit }`&quot;`</p> 
           </div>
         </div>
         <div>
