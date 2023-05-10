@@ -11,7 +11,7 @@ const Results = ({snippit, keywords, backButton, prompt}) => {
             <b>Branding Snippet:</b>
           </div>
           <div>
-          <p>`&quot;`{snippit }`&quot;`</p> 
+          <p>{snippit }</p> 
           </div>
         </div>
         <div>
